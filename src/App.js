@@ -4,16 +4,16 @@ import * as parkDate from "./data/skateboard-parks.json";
 
 export default function App() {
   const [viewport, setViewport] = useState({
-    latitude: 45.4211,
-    longitude: -75.6903,
+    latitude: 51.51362321755401,
+    longitude:-0.13686583780431966,
     width: "100vw",
     height: "100vh",
-    zoom: 10
+    zoom: 10,
   });
   const [selectedPark, setSelectedPark] = useState(null);
 
   useEffect(() => {
-    const listener = e => {
+    const listener = (e) => {
       if (e.key === "Escape") {
         setSelectedPark(null);
       }
@@ -30,12 +30,12 @@ export default function App() {
       <ReactMapGL
         {...viewport}
         mapboxApiAccessToken={process.env.REACT_APP_MAPBOX_TOKEN}
-        mapStyle="mapbox://styles/leighhalliday/cjufmjn1r2kic1fl9wxg7u1l4"
-        onViewportChange={viewport => {
+        mapStyle="mapbox://styles/mapbox/dark-v10"
+        onViewportChange={(viewport) => {
           setViewport(viewport);
         }}
       >
-        {parkDate.features.map(park => (
+        {parkDate.features.map((park) => (
           <Marker
             key={park.properties.PARK_ID}
             latitude={park.geometry.coordinates[1]}
@@ -43,12 +43,12 @@ export default function App() {
           >
             <button
               className="marker-btn"
-              onClick={e => {
+              onClick={(e) => {
                 e.preventDefault();
                 setSelectedPark(park);
               }}
             >
-              <img src="/skateboarding.svg" alt="Skate Park Icon" />
+              <img src="/pin.svg" alt="Accessible locations" />
             </button>
           </Marker>
         ))}
@@ -71,3 +71,6 @@ export default function App() {
     </div>
   );
 }
+
+// onMouseEnter={() => this.someHandler}
+//     onMouseLeave={() => this.someOtherHandler}
