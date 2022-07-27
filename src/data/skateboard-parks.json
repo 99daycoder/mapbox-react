@@ -10,29 +10,29 @@
       "properties": {
         "PARK_ID": 960,
         "FACILITYID": 28014,
-        "NAME": "Bearbrook Skateboard Park",
-        "NAME_FR": "Planchodrome Bearbrook",
-        "ADDRESS": "8720 Russell Road",
-        "ADDRESS_FR": "8720, chemin Russell",
-        "FACILITY_T": "flat",
-        "FACILITY_1": "plat",
+        "NAME": "Blacklock Soho",
+        "NAME_FR": "Blacklock Soho",
+        "ADDRESS": "24 Great Windmill St, London W1D 7LG",
+        "ADDRESS_FR": "24 Great Windmill St, London W1D 7LG",
+        "FACILITY_T": "Steak house",
+        "FACILITY_1": "Steak house",
         "ACCESSCTRL": "no/non",
         "ACCESSIBLE": "no/non",
-        "OPEN": null,
+        "OPEN": "Wednesday, 12–3pm, 5–10:30pm",
         "NOTES": "Outdoor",
         "MODIFIED_D": "2018/01/18",
         "CREATED_DA": null,
-        "FACILITY": "Neighbourhood : smaller size facility to service population of 10,000 or less",
-        "FACILITY_F": "De voisinage : petite installation assurant des services à 10 000 résidents ou moins.",
-        "DESCRIPTIO": "Flat asphalt surface, 5 components",
-        "DESCRIPT_1": "Surface d'asphalte plane, 5 modules",
+        "FACILITY": "Atmospheric basement restaurant and bar for seared meat chops, plus cocktails from trolley carts.",
+        "FACILITY_F": "Atmospheric basement restaurant and bar for seared meat chops, plus cocktails from trolley carts.",
+        "DESCRIPTIO": "Atmospheric basement restaurant and bar for seared meat chops, plus cocktails from trolley carts.",
+        "DESCRIPT_1": "Atmospheric basement restaurant and bar for seared meat chops, plus cocktails from trolley carts.",
         "PICTURE_LI": null,
         "PICTURE_DE": null,
         "PICTURE__1": null
       },
       "geometry": {
         "type": "Point",
-        "coordinates": [-75.3372987731628, 45.383321536272049]
+        "coordinates": [51.512088020046875,-0.13457668357607025]
       }
     },
     {
@@ -40,9 +40,9 @@
       "properties": {
         "PARK_ID": 1219,
         "FACILITYID": 28001,
-        "NAME": "Bob MacQuarrie Skateboard Park (SK8 Extreme Park)",
-        "NAME_FR": "Planchodrome Bob-MacQuarrie (Parc SK8 Extreme)",
-        "ADDRESS": "1490 Youville Drive",
+        "NAME": "Bill's Soho Restaurant",
+        "NAME_FR": "Bill's Soho Restaurant",
+        "ADDRESS": "36-44 Brewer St, London W1F 9TB",
         "ADDRESS_FR": "1490, promenade Youville",
         "FACILITY_T": "other",
         "FACILITY_1": "autre",
@@ -52,9 +52,9 @@
         "NOTES": "Outdoor",
         "MODIFIED_D": "2018/01/18",
         "CREATED_DA": null,
-        "FACILITY": "Community: mid size facility to service population of 40,000 plus",
+        "FACILITY": "Contemporary European chain dishing up separate breakfast, afternoon tea, lunch and dinner menus.",
         "FACILITY_F": "Communautaire : installation de taille moyenne assurant des services à 40 000 résidents ou plus.",
-        "DESCRIPTIO": "Flat asphalt surface, 10 components, City run learn to skateboard programs, City run skateboard camps in summer",
+        "DESCRIPTIO": "Contemporary European chain dishing up separate breakfast, afternoon tea, lunch and dinner menus.",
         "DESCRIPT_1": "Surface d'asphalte plane, 10 modules, programmes et camps de planche à roulettes en été géré par la Ville",
         "PICTURE_LI": null,
         "PICTURE_DE": null,
@@ -62,7 +62,7 @@
       },
       "geometry": {
         "type": "Point",
-        "coordinates": [-75.546518086577947, 45.467134581917357]
+        "coordinates": [51.51226090514994, -0.13521278619092814]
       }
     },
     {
@@ -70,11 +70,11 @@
       "properties": {
         "PARK_ID": 1157,
         "FACILITYID": 28002,
-        "NAME": "Walter Baker Skateboard Park",
+        "NAME": "Kricket Soho",
         "NAME_FR": "Planchodrome Walter-Baker",
-        "ADDRESS": "100 Charlie Rogers Place",
+        "ADDRESS": "12 Denman St, London W1D 7HJ",
         "ADDRESS_FR": "100, place Charlie Rogers",
-        "FACILITY_T": "bowl",
+        "FACILITY_T": "Indian restaurant",
         "FACILITY_1": "bol",
         "ACCESSCTRL": "no/non",
         "ACCESSIBLE": "no/non",
@@ -82,17 +82,35 @@
         "NOTES": "Outdoor",
         "MODIFIED_D": "2018/01/18",
         "CREATED_DA": null,
-        "FACILITY": "Community : mid size facility to service population of 40,000 plus",
-        "FACILITY_F": "Communautaire : installation de taille moyenne assurant des services à 40 000 résidents ou plus.",
-        "DESCRIPTIO": "Concrete bowl, 7,000 sq ft",
-        "DESCRIPT_1": "Bol de béton, 7 000 pi2",
+        "FACILITY": "A classic & creative selection of Indian-inspired dishes & cocktails in a contemporary eatery.",
+        "FACILITY_F": "A classic & creative selection of Indian-inspired dishes & cocktails in a contemporary eatery.",
+        "DESCRIPTIO": "Offerings
+
+        Alcohol
+        
+        Beer
+        
+        Cocktails
+        
+        Coffee
+        
+        Free water refills
+        
+        Late-night food
+        
+        Small plates
+        
+        Vegetarian options
+        
+        Wine",
+        "DESCRIPT_1": "A classic & creative selection of Indian-inspired dishes & cocktails in a contemporary eatery.",
         "PICTURE_LI": null,
         "PICTURE_DE": null,
         "PICTURE__1": null
       },
       "geometry": {
         "type": "Point",
-        "coordinates": [-75.898610599532319, 45.295014379864874]
+        "coordinates": [51.511205917389404, -0.13510549783306075]
       }
     },
     {
@@ -100,11 +118,11 @@
       "properties": {
         "PARK_ID": 9,
         "FACILITYID": 28006,
-        "NAME": "Roving Skateboard Park Location",
+        "NAME": "Côte Soho",
         "NAME_FR": "Lieu de planchodrome itinérant",
-        "ADDRESS": "2785 8th Line Road",
-        "ADDRESS_FR": "2785, chemin 8th Line",
-        "FACILITY_T": "other",
+        "ADDRESS": "124, 126 Wardour St, London W1F 0TY",
+        "ADDRESS_FR": "124, 126 Wardour St, London W1F 0TY",
+        "FACILITY_T": "Restaurant",
         "FACILITY_1": "autre",
         "ACCESSCTRL": "no/non",
         "ACCESSIBLE": "no/non",
@@ -112,9 +130,9 @@
         "NOTES": "Outdoor - Mobile",
         "MODIFIED_D": "2018/01/18",
         "CREATED_DA": null,
-        "FACILITY": "Metcalfe Community Centre - Roving Skateboard Park Location",
+        "FACILITY": "Modern, all-day French brasserie chain, serving regional specialties & traditional classics.",
         "FACILITY_F": "Centre communautaire de Metcalfe - Lieu de planchodrome itinérant",
-        "DESCRIPTIO": "Flat surface, 5 components",
+        "DESCRIPTIO": "Modern, all-day French brasserie chain, serving regional specialties & traditional classics.",
         "DESCRIPT_1": "Surface plane, 5 modules",
         "PICTURE_LI": null,
         "PICTURE_DE": null,
@@ -122,7 +140,7 @@
       },
       "geometry": {
         "type": "Point",
-        "coordinates": [-75.468561642270757, 45.23032561834377]
+        "coordinates": [51.51455393743894, -0.13433618672999167]
       }
     },
     {
